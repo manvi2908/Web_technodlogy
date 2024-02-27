@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Size Enlargement</title>
+    <style>
+        /* Default text size */
+        .normal-text {
+            font-size: 16px;
+        }
+
+        /* Enlarged text size */
+        .enlarged-text {
+            font-size: 40px;
+            /* 2.5 times larger than default */
+            transition: font-size 0.3s ease;
+            /* Smooth transition effect */
+        }
+
+        /* Apply enlargement on hover */
+        .normal-text:hover {
+            font-size: 40px;
+            /* 2.5 times larger than default */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Text input field -->
+    <label for="text-input">Hover to Enlarge Text:</label><br>
+    <input type="text" id="text-input" class="normal-text"><br>
+
+</body>
+
+</html>
